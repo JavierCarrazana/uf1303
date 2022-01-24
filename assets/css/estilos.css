@@ -1,0 +1,41 @@
+/* Marca de agua */
+
+.agua:before {
+    position: fixed;
+    content: '';
+    bottom: 2vh;
+    right: 5vh;
+    width: 13.8437vh;
+    height: 20vh;
+    opacity: 0.3;
+    background-image: url("../img/skull-g5815cab8b_640.png");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.portada {
+    width: 100%;
+    height: 50vh;
+    background-image: url("../img/banner-g5a25036f9_1920.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+header.portada {
+    position: relative;
+    
+}
+header.portada h2 {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    width: 100%;
+    padding: 0.5em;
+    color: white;
+    background-color: rgba(85, 119, 20, 0.6);
+    text-align: center;
+    font-size: xx-large;
+    margin: 5px solid #0f8400;
+}

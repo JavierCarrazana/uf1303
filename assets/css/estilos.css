@@ -1,3 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Bree Serif', serif;
+    text-transform: capitalize;
+}
+
+h2,
+strong {
+    color: purple;
+}
+
+h3,
+h4,
+h5,
+h6,
+a {
+    color: crimson;
+}
+
+a {
+    font-weight: 500;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    line-height : 25x;
+}
+
+figcaption {
+    font-size: small;
+    font-style: italic;
+}
+
 /* Marca de agua */
 
 .agua:before {
@@ -23,10 +63,12 @@
     background-repeat: no-repeat;
 
 }
+
 header.portada {
     position: relative;
-    
+
 }
+
 header.portada h2 {
     position: absolute;
     top: 40%;
@@ -39,4 +81,3 @@ header.portada h2 {
     font-size: xx-large;
     margin: 5px solid #0f8400;
 }
-/* comentario para ver si me deja hacer cambios */

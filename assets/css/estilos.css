@@ -132,10 +132,23 @@ header.portada h2 {
     top: 40%;
     left: 0;
     width: 100%;
-    padding: 0.5em;
+
     color: white;
     background-color: rgba(220, 20, 60, 0.6);
     text-align: center;
     font-size: xx-large;
     margin: 5px solid #0f8400;
+}
+
+/*======================================*/
+
+body main section {
+    padding: 5vw;
+}
+
+p.nota {
+    padding: 1em;
+    background-color: blanchedalmond;
+    border-left: crimson solid 0.33em;
+    border-radius: 5px
 }

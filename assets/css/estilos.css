@@ -151,3 +151,22 @@ p.nota {
     border-left: crimson solid 0.33em;
     border-radius: 5px
 }
+/* =========== footer: validators =========== */
+/* Reglas comunes  88x31 ; 182x64 ; 88x31*/
+figure.w3c {
+    width: 88px;
+    height: 31px;
+    background-position: 50% 50%;
+    /* también vale background-position: center center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+figure.w3c.css {
+    background-image: url("../svg/w3c/css.svg")
+}
+figure.w3c.wcag {
+    background-image: url("../svg/w3c/wcag.svg")
+}
+figure.w3c.xhtml5 {
+    background-image: url("../svg/w3c/html5.svg")
+}

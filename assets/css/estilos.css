@@ -184,15 +184,15 @@ figure.w3c {
 }
 
 figure.w3c.css {
-    background-image: url("../svg/w3c/css.svg")
+    background-image: url("../svg/w3c/css.svg");
 }
 
 figure.w3c.wcag {
-    background-image: url("../svg/w3c/wcag.svg")
+    background-image: url("../svg/w3c/wcag.svg");
 }
 
 figure.w3c.xhtml5 {
-    background-image: url("../svg/w3c/html5.svg")
+    background-image: url("../svg/w3c/html5.svg");
 }
 
 footer {
@@ -203,4 +203,35 @@ li.legal {
     display: inline-block;
     line-height: 1.5;
     text-align: center;
+}
+
+article.imagen {
+    width: 500px;
+    height: 300px;
+    background-color: blue;
+    position:relative;
+}
+
+article.imagen:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://cdn.elycathedral.org/uploads/images/_main_image_large/Choir-looking-west.jpg?v=1633423530,0.4973,0.8833");
+    opacity: 0.5;
+}
+
+article.imagen h2,
+article.imagen p {
+    position: relative;
+    text-align: center;
+    color: lime;
+}
+
+article.imagen p {
+    font-weight: 600;
 }

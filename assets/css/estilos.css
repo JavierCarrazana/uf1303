@@ -45,10 +45,6 @@ a {
     color: rgb(220, 20, 60);
 }
 
-a {
-    font-weight: bold;
-}
-
 p,
 li,
 strong,
@@ -172,8 +168,8 @@ posicion.article {
     position: relative;
 }
 
-/* =========== footer: validators =========== */
-/* Reglas comunes  88x31 ; 182x64 ; 88x31*/
+/* =========== footer =========== */
+/* Reglas comunes  88x31 */
 figure.w3c {
     width: 88px;
     height: 31px;
@@ -234,4 +230,10 @@ article.imagen p {
 
 article.imagen p {
     font-weight: 600;
+}
+footer h2, footer li a {
+    color: white;
+}
+footer li a {
+    text-decoration: none;
 }

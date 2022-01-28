@@ -240,3 +240,14 @@ footer li a {
 footer li a {
     text-decoration: none;
 }
+footer div.imgfooter {
+    width: 13.8437vh;
+    height: 20vh;
+    bottom: 2vh;
+    right: 100%;
+    float: right; 
+    background-image: url("../img/skull-g5815cab8b_640.png");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

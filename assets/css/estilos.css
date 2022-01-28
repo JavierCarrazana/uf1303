@@ -177,6 +177,13 @@ figure.w3c {
     /* también vale background-position: center center; */
     background-size: cover;
     background-repeat: no-repeat;
+    margin: 0.1em;
+    width: 5vw;
+    height: 1.75vw
+}
+
+li.w3c figure {
+    margin: 0.5em;
 }
 
 figure.w3c.css {
@@ -191,14 +198,22 @@ figure.w3c.xhtml5 {
     background-image: url("../svg/w3c/html5.svg");
 }
 
-footer {
-    background-color: black;
-}
-
+li.validator,
 li.legal {
     display: inline-block;
     line-height: 1.5;
     text-align: center;
+    font-size: small;
+}
+
+li.legal {
+    margin: 0.5em;
+}
+
+li.legal,
+li.legal a {
+    height: 4em;
+    line-height: 4em;
 }
 
 article.imagen {
@@ -232,26 +247,48 @@ article.imagen p {
     font-weight: 600;
 }
 
-footer h2,
-footer li a {
+body > footer {
+    background-color: black;
+    padding-left: 7.5vw;
+    padding-right: 7.5vw;
+    padding-top: 1%;
+    padding-bottom: 5%;
+}
+
+body > footer h2,
+body > footer li a {
     color: white;
 }
 
-footer li a {
+body > footer li a {
     text-decoration: none;
+    font-size: small;
 }
-footer div.imgfooter {
-    width: 13.8437vh;
-    height: 20vh;
-    bottom: 2vh;
-    float: right; 
-    background-image: url("../img/skull-g5815cab8b_640.png");
-    background-position: 50% 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+
 ul.galeria li {
     /* background: lime; */
     display: inline-block;
     list-style: none;
+}
+
+footer section.footer__pie h2 {
+    display: none;
+}
+
+section.contentinfo a.pattern figure {
+    width: 20vw;
+    height: 14vw;
+    background-image: url("https://cdn.pixabay.com/photo/2018/08/05/12/04/blockchain-3585482_960_720.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section.contentinfo a.pattern {
+    width: 40%;
+}
+
+div[role="group"] {
+    width: 40%;
+    
 }
